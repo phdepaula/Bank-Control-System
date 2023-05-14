@@ -2,13 +2,13 @@ from datetime import date
 from datetime import datetime
 
 
-def date_para_str(data: date) -> str:
-    return data.strftime('%d/%m/%Y')
+def date_para_str(date: date) -> str:
+    return date.strftime('%d/%m/%Y')
 
 
-def str_para_date(data: str) -> date:
-    return datetime.strptime(data, '%d/%m/%Y')
+def str_para_date(date: str) -> date:
+    return datetime.strptime(date, '%d/%m/%Y')
 
 
-def formata_float_str_moeda(valor: float) -> str:
-    return f'R$ {valor:,.2f}'
+def format_float_str_coin(value: float) -> str:
+    return f'$ {value:,.2f}'
