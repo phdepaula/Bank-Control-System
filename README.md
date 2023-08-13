@@ -9,7 +9,6 @@ This project refers to a bank control system that allows the user to perform cer
 * List Accounts
 * Exit System
 
----
 ## **How to run the code**
 
 Open the terminal and run the following command:
